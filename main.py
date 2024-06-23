@@ -19,9 +19,6 @@ from fastapi.responses import JSONResponse
 
 app = FastAPI()
 
-# Mock model
-model = None
-
 
 class ImageInput(BaseModel):
     image: bytes
